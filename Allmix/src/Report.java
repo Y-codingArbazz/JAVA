@@ -5,6 +5,7 @@ public class Report {
     public static void main(String[] args) {
         Scanner S= new Scanner(System.in);
         Sdata Data= new Sdata();
+        
         System.out.println("Enter Your Name");
         Data.Name= S.next();
                 System.out.println("Enter Your ID");
@@ -34,6 +35,7 @@ public class Report {
         System.out.println(Data.Mobile);
         System.out.println(Data.CGPA);
         System.out.println(Data.Marks);
+        System.out.println(" ");
         System.out.println(Data.Eligible);
 
 
